@@ -1,10 +1,9 @@
 name: Deploy Node js App to ECR # name
 
 on:
-
-push:
-    branches: [ main ] # the branch to be deployed
-
+  push: 
+   branches: # the branch to be deployed
+      - 'main'
 jobs:
 
     build:
