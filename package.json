@@ -1,0 +1,16 @@
+{
+  "name": "deploy-applications-to-aws-ecr-with-a-github-actions-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "CI/CD automates application development pipline. It eliminated manual deployments from the your initial code commit to production deployment itegrations. Its practise allows teams to build, test, and deploy applications quickly and reliably.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
